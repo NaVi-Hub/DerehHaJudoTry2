@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DerehHaJudo2/.vs/DerehHaJudo2/v16
+/DerehHaJudo2/DerehHaJudo2/bin
+/DerehHaJudo2/DerehHaJudo2/obj
