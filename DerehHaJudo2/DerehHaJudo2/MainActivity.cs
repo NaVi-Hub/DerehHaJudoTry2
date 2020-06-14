@@ -32,6 +32,7 @@ namespace DerehHaJudo2
             trainers.Add("נצי");
             BuildScreen();
         }
+
         #region RuntimePermissions
 
         async Task TryToGetPermissions()
@@ -102,7 +103,9 @@ namespace DerehHaJudo2
             //base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
         //https://github.com/egarim/XamarinAndroidSnippets/blob/master/XamarinAndroidRuntimePermissions
+        //https://youtu.be/Uzpy3qdYXmE
         #endregion
+
         List<string> trainers = new List<string>();
         LinearLayout.LayoutParams WrapContParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WrapContent, LinearLayout.LayoutParams.WrapContent);
         LinearLayout.LayoutParams LP1 = new LinearLayout.LayoutParams(500, 300);
